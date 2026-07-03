@@ -1,0 +1,9 @@
+[project]
+name = "chai"
+version = "0.0.1"
+description = "meaningful questions"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "textual>=8.2.8",
+]
