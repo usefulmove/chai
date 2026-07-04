@@ -12,11 +12,6 @@ class Question(Static):
         n_questions = len(questions)
 
     def on_mount(self) -> None:
-        # set styling
-        self.styles.text_align = "left"
-        self.styles.margin = 0, 0
-        self.styles.padding = 2, 4
-
         self.show_question("first")
 
     def show_question(self, tag="first"):
@@ -40,6 +35,8 @@ class Question(Static):
 
 
 class Chai(App):
+    CSS_PATH = "css.tcss"
+
     def compose(self) -> None:
         self.question = Question()
         yield self.question
