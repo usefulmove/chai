@@ -35,7 +35,7 @@ class Question(Static):
 
 
 class Chai(App):
-    CSS_PATH = "css.tcss"
+    CSS_PATH = "chai.tcss"
 
     def compose(self) -> None:
         self.question = Question()

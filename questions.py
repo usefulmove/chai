@@ -5,6 +5,7 @@ questions = (
     "What do you think about acceptance?",
     "If you could reconnect with one person from your past, who would it be and why?",
     "What are you for (most in favor of)?",
+    "For you, what makes life beautiful?",
 )
 
 n_questions = len(questions)
