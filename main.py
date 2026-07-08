@@ -26,11 +26,13 @@ class Question(Static):
             case "random":
                 self.current_id = randrange(0, len(questions))
 
-        self.update(Markdown(
-            f"> *{questions[self.current_id]}*"
-            "\n\n"
-            f"{self.current_id:0>3} {"[random]" if tag == "random" else ""}"
-        ))
+        self.update(
+            Markdown(
+                f"> *{questions[self.current_id]}*"
+                "\n\n"
+                f"{self.current_id:0>3} {'[random]' if tag == 'random' else ''}"
+            )
+        )
 
 
 class Chai(App):
@@ -45,17 +47,17 @@ class Chai(App):
 
     def on_key(self, event) -> None:
         match event.key:
-            case 'n' | 'k':
+            case "n" | "k":
                 self.question.show_question("next")
-            case 'p' | 'j':
+            case "p" | "j":
                 self.question.show_question("previous")
-            case 'h' | 'f':
+            case "h" | "f":
                 self.question.show_question("first")
-            case 'l':
+            case "l":
                 self.question.show_question("last")
             case "r":
                 self.question.show_question("random")
-            case 'q':
+            case "q":
                 sys.exit(0)
             case _:
                 return
