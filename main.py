@@ -9,7 +9,6 @@ from textual.widgets import Static
 class Question(Static):
     def __init__(self):
         super().__init__()
-        n_questions = len(questions)
 
     def on_mount(self) -> None:
         self.show_question("first")
