@@ -7,13 +7,10 @@ from textual.widgets import Static
 
 
 class Question(Static):
-    def __init__(self):
-        super().__init__()
-
     def on_mount(self) -> None:
         self.show_question("first")
 
-    def show_question(self, tag="first"):
+    def show_question(self, tag="first") -> None:
         match tag:
             case "first":
                 self.current_id = 0
