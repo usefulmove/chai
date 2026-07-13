@@ -6,6 +6,7 @@ questions = (
     "If you could reconnect with one person from your past, who would it be and why?",
     "What are you for (most in favor of)?",
     "For you, what makes life beautiful?",
+    "In what ways are you a little bit crazy?",
 )
 
 n_questions = len(questions)
