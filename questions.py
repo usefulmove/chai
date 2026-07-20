@@ -7,6 +7,7 @@ questions = (
     "What are you for (most in favor of)?",
     "For you, what makes life beautiful?",
     "In what ways are you a little bit crazy?",
+    "What is your definition of evil?",
 )
 
 n_questions = len(questions)
