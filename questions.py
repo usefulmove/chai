@@ -8,6 +8,7 @@ questions = (
     "For you, what makes life beautiful?",
     "In what ways are you a little bit crazy?",
     "What is your definition of evil?",
+    "What songs are on the soundtrack to your life?",
 )
 
 n_questions = len(questions)
