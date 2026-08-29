@@ -10,6 +10,7 @@ questions = (
     "What is your definition of evil?",
     "What songs are on the soundtrack to your life?",
     "What are your hopes and dreams?",
+    "Tell me about your childhood. What do you take with you as you walk through each day of your life?",
 )
 
 n_questions = len(questions)
