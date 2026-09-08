@@ -44,9 +44,9 @@ class Chai(App):
 
     def on_key(self, event) -> None:
         match event.key:
-            case "n" | "k":
+            case "n" | "j":
                 self.question.show_question("next")
-            case "p" | "j":
+            case "p" | "k":
                 self.question.show_question("previous")
             case "h" | "f":
                 self.question.show_question("first")
