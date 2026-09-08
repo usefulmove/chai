@@ -12,6 +12,7 @@ questions = (
     "What are your hopes and dreams?",
     "What stands out from your childhood? What do you take with you as you walk through each day of your life?",
     "What's the most transformational conversation you've ever had?",
+    "When did you realize that strength and vulnerability are not opposites?",
 )
 
 n_questions = len(questions)
